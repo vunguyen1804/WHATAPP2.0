@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29936C</color>
+    <color name="colorPrimaryDark">#0f6894</color>
+    <color name="colorAccent">#0D5D98</color>
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#03FCF4</color>
+    <color name="gradStart">#03FC6B</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2478ff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#0acf56 </color>>
+    <color name="red">#de093e </color>>
+    <color name="friendMenuColor">#FFFFFF </color>>
+    <color name="lightBlue">#8ab7ff</color>
+    <color name="blue1">#32afc2</color>
+    <color name="blue2">#0998ad</color>
+
+
+</resources>

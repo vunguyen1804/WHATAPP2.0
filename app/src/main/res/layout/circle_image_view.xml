@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Name: Zuhao Zhang
+ *       Adrian Wong
+ *       Yuxiang Liu
+ *       Zhe Xu
+ *       Vu Nguyen
+ *       Boram Wong
+ *       Srinivas Venkatraman
+ *       Apurva Goenka
+ *       Steven Kan
+ *       Edgar Matias
+ *
+ * Project: EDM-Messenger
+ * Date: 9/23/2019
+ * Description: UCSD Fall 2019 Gary's CSE 110 Team EDM's messenger project
+ */
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>

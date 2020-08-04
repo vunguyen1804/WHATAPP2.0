@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Name: Zuhao Zhang
+ *       Adrian Wong
+ *       Yuxiang Liu
+ *       Zhe Xu
+ *       Vu Nguyen
+ *       Boram Wong
+ *       Srinivas Venkatraman
+ *       Apurva Goenka
+ *       Steven Kan
+ *       Edgar Matias
+ *
+ * Project: EDM-Messenger
+ * Date: 9/23/2019
+ * Description: UCSD Fall 2019 Gary's CSE 110 Team EDM's messenger project
+ */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.WebviewActivity">
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webview" >
+    </WebView>
+
+    <ProgressBar
+        android:id="@+id/webview_progress_bar"
+        android:layout_centerInParent= "true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+</RelativeLayout>

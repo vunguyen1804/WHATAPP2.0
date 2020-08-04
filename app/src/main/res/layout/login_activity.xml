@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Name: Zuhao Zhang
+ *       Adrian Wong
+ *       Yuxiang Liu
+ *       Zhe Xu
+ *       Vu Nguyen
+ *       Boram Wong
+ *       Srinivas Venkatraman
+ *       Apurva Goenka
+ *       Steven Kan
+ *       Edgar Matias
+ *
+ * Project: EDM-Messenger
+ * Date: 9/23/2019
+ * Description: UCSD Fall 2019 Gary's CSE 110 Team EDM's messenger project
+ */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_gradient"
+    tools:context="com.edm_messenger.app.LoginActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/login_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/login_image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter"
+                />
+
+            <TextView
+                android:id="@+id/login_warning_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/login_image"
+                android:text=""
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="23dp"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                />
+
+            <EditText
+                android:id="@+id/login_email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_image"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:background="@drawable/edit_text"
+                android:drawableStart="@drawable/email_icon"
+                android:hint="  Enter Email"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/login_password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/login_email_edit_text"
+                android:hint="  Enter Password"
+                android:inputType="textPassword"
+                android:background="@drawable/edit_text"
+                android:padding="10dp"
+                android:drawableStart="@drawable/password_icon"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_password_edit_text">
+            <TextView
+                android:id="@+id/forget_password_label"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/login_password_edit_text"
+                android:text="Forget Password?"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="textStart"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                />
+            <TextView
+                android:id="@+id/create_new_account_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/login_button"
+                android:text="Create a New Account?"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/grey"
+                />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_layout"
+                android:padding="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button3"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

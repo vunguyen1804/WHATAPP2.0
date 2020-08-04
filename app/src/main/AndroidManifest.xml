@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edm_messenger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+
+        <activity android:name=".app.GroupSearchActivity"></activity>
+        <activity android:name=".app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.SignUpActivity"
+            android:label="@string/signupPage" />
+        <activity
+            android:name=".app.AccountRecoveryActivity"
+            android:label="@string/accountrecoverPage" />
+        <activity
+            android:name=".app.LoginActivity"
+            android:label="@string/loginPage" />
+        <activity
+            android:name=".app.ProfileSettings"
+            android:label="settingsPage" />
+        <activity
+            android:name=".app.FriendSearchActivity"
+            android:label="Search for friend" />
+        <activity
+            android:name=".app.GroupChatActivity"
+            android:label="groupChat" />
+        <activity
+            android:name=".app.FriendChatActivity"
+            android:label="friendChat" />
+        <activity
+            android:name=".app.VideoChatActivity"
+            android:label="videoChat" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".app.VideoChatViewActivity"
+            android:label="videoChatView" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

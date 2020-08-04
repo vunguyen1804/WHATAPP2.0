@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "759705169974",
+    "firebase_url": "https://edm-messenger.firebaseio.com",
+    "project_id": "edm-messenger",
+    "storage_bucket": "edm-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759705169974:android:d6600e9f60c2f5c713e897",
+        "android_client_info": {
+          "package_name": "com.edm_messenger.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759705169974-26t60urvifb40thftnr5nt8f74pgcl0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edm_messenger.app",
+            "certificate_hash": "6bce881826d7e1fc36a358646bdeae457d16eda4"
+          }
+        },
+        {
+          "client_id": "759705169974-l4aovjhpv796cpe7g6tf66tfcora82m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0P2fMnVZznqC8c8TTWxG93mOay6h9lU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759705169974-l4aovjhpv796cpe7g6tf66tfcora82m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

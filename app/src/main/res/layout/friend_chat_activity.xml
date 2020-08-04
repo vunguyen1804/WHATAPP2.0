@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Name: Zuhao Zhang
+ *       Adrian Wong
+ *       Yuxiang Liu
+ *       Zhe Xu
+ *       Vu Nguyen
+ *       Boram Wong
+ *       Srinivas Venkatraman
+ *       Apurva Goenka
+ *       Steven Kan
+ *       Edgar Matias
+ *
+ * Project: EDM-Messenger
+ * Date: 9/23/2019
+ * Description: UCSD Fall 2019 Gary's CSE 110 Team EDM's messenger project
+ */
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/friend_chat_tool_bar"
+        android:background="@drawable/blue_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyMaterialTheme"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/friend_profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile"
+            android:layout_below="@+id/friend_chat_tool_bar"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/grey"/>
+        />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/friend_chat_tool_bar"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/friend_message_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tool_bar"
+            android:layout_above="@+id/myLinearLayout"
+            android:background="@color/white"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+    ​
+    <RelativeLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/edit_text"
+        >
+
+
+        <EditText
+            android:id="@+id/friend_input_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:background="#f5f5f5"
+            android:hint="Message"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            />
+        ​
+        <Button
+            android:id="@+id/send_friend_message_button"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button2"
+            android:layout_alignEnd="@id/friend_input_edit_text"
+            android:text="send"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+        ​
+    </RelativeLayout>
+    ​
+    ​
+
+    ​
+</RelativeLayout>

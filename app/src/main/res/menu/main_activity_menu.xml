@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".app.MainActivity"
+    >
+
+    <item android:id="@+id/search_people_menu"
+        android:title="Search for Friend"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/search_group_menu"
+        android:title="Search for Group"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/add_group_menu"
+        android:title="Add a Group"
+        android:icon="@drawable/add_group_icon"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/settings_menu"
+        android:title="Settings"
+        android:icon="@drawable/setting_icon"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/logout_menu"
+        android:title="Log out"
+        android:icon="@drawable/setting_icon"
+        app:showAsAction="never" />
+
+</menu>

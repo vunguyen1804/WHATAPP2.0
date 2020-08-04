@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EDM</string>
+    <string name="loginPage">login</string>
+    <string name="signupPage">signup</string>
+    <string name="chatPage">chat</string>
+    <string name="accountrecoverPage">accountrecover</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="email">Email:</string>
+    <string name="example_ucsd_edu">example@ucsd.edu</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="todo">TODO</string>
+    <string name="back">Back</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="agora_app_id">022da259f9fe4387a2c3f399453c2857</string>
+    <string name="agora_access_token"></string>
+
+    <string-array name="Status">
+        <item>Online</item>
+        <item>Busy</item>
+        <item>Invisible</item>
+        <item>Offline</item>
+    </string-array>
+
+
+    <string-array name="testing">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string name="title_activity_tabbed_activity">tabbed_activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

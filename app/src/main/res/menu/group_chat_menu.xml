@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".app.FriendChatActivity"
+    >
+
+    <item android:id="@+id/group_location_icon"
+        android:title="Send PDF"
+        android:icon="@drawable/location_icon"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/group_pdf_icon"
+        android:title="Send PDF"
+        android:icon="@drawable/pdf_icon"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/group_image_icon"
+        android:title="Send Image"
+        android:icon="@drawable/image_icon"
+        app:showAsAction="always"
+        />
+</menu>
